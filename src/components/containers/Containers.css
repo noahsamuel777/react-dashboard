@@ -1,0 +1,26 @@
+.Containers{
+    display: flex;
+    gap: 10px;
+}
+
+.parentcontainer{
+     width: 100%;
+}
+
+@media  screen and (max-width: 1200px){
+    .Containers{
+        flex-direction: column;
+    }
+
+    .parentcontainer{
+        height: 9rem;
+        
+    }
+}
+
+
+@media  screen and (max-width: 768px){
+    .Containers{
+        width: 90%;
+    }
+}

@@ -1,0 +1,28 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Main>h1{
+    display: none;
+}
+
+
+@media  screen and (max-width: 1200px){
+    .Main{
+        justify-content: flex-start;
+        margin-top: 2rem;
+        
+    }
+    .Main>h1{
+        display: block;
+    }
+    
+}
+
+@media  screen and (max-width: 768px){
+    .Main{
+        align-items: center;
+    }
+}
